@@ -35,6 +35,9 @@ li {
     margin-left: 20px;
     margin-right: 20px;
 }
+* {
+    background-color: black;
+}
 a.navlink {
     color: white;
     text-decoration: none;
@@ -42,6 +45,25 @@ a.navlink {
     font-size: 100%;
     font-family: "Arial Bold";
 }
-* {
-    background-color: black;
+.search input[type=text] {
+    float: right;
+    top: 300px;
+    position: relative;
+    padding: 6px 6px;
+    border: none;
+    left: 140px;
+    margin-top: 8px;
+    font-size: 20px;
+    border: 2px solid white;
+    color: whitesmoke;
+}
+.search button {
+    float: none;
+    top: 430px;
+    position: relative;
+    border: none;
+    background-size: 20px;
+    margin-top: 8px;
+    border: none;
+    cursor: pointer;
 }
