@@ -47,11 +47,11 @@ a.navlink {
 }
 .search input[type=text] {
     float: right;
-    top: 300px;
+    top: 20px;
     position: relative;
     padding: 6px 6px;
     border: none;
-    left: 140px;
+    left: 100px;
     margin-top: 8px;
     font-size: 20px;
     border: 2px solid white;
@@ -59,11 +59,29 @@ a.navlink {
 }
 .search button {
     float: none;
-    top: 430px;
+    top: 85px;
     position: relative;
     border: none;
     background-size: 20px;
     margin-top: 8px;
     border: none;
     cursor: pointer;
+}
+.column {
+    float: left;
+    width: 20%;
+    height: 10%;
+    margin : 0px;
+}
+.row::after {
+    content: "";
+    height: 10%;
+    clear: both;
+    display: table;
+}
+.column:hover {
+    transform: scale(1.3);
+}
+img.movie {
+   padding : 2px;
 }
